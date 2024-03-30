@@ -1,0 +1,458 @@
+[
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy unit takes [Ice] or [Lightning] damage, it gets -25 [Ice] and [Lightning] resist.  This debuff does not stack.",
+        "name": "Storm Oculus",
+        "tags": [
+            "Ice",
+            "Lightning"
+        ]
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy unit takes [Dark] or [Arcane] damage, it gets -25 [Dark] and [Arcane] resist.  This debuff does not stack.",
+        "name": "Void Oculus",
+        "tags": [
+            "Dark",
+            "Arcane"
+        ]
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy unit takes [Fire] or [Lightning] damage, it gets -25 [Fire] and [Lightning] resist.  This debuff does not stack.",
+        "name": "Pyrostatic Oculus",
+        "tags": [
+            "Fire",
+            "Lightning"
+        ]
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy unit takes [Dark] or [Holy] damage, it gets -25 [Dark] and [Holy] resist.  This debuff does not stack.",
+        "name": "Twilight Oculus",
+        "tags": [
+            "Dark",
+            "Holy"
+        ]
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy unit takes [Ice] or [Arcane] damage, it gets -25 [Ice] and [Arcane] resist.  This debuff does not stack.",
+        "name": "Crystal Oculus",
+        "tags": [
+            "Ice",
+            "Arcane"
+        ]
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy unit takes [Fire] or [Holy] damage, it gets -25 [Fire] and [Holy] resist.  This debuff does not stack.",
+        "name": "Purity Oculus",
+        "tags": [
+            "Fire",
+            "Holy"
+        ]
+    },
+    {
+        "slot": "staff",
+        "description": "Redeal half of all damage you deal with [sorcery] as [arcane] damage.",
+        "name": "Arcane Amplifier"
+    },
+    {
+        "slot": "staff",
+        "description": "Redeal half of all damage you deal with [enchantment] as [fire] damage.",
+        "name": "The Flamenweaver"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever you cast a level 1 or 2 [nature] spell, summon a spriggan.\nWhenever you cast a level 3 or higher [nature] spell, summon a treant.",
+        "name": "Treelord Staff"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever you cast a level 1 or 2 [arcane] spell, summon a boggart.\nWhenever you cast a level 3 or higher [arcane] spell, summon a phase spider.",
+        "name": "Aetherlord Staff"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever you cast a level 1 or 2 [dark] spell, summon a fly swarm.\nWhenever you cast a level 3 or higher [dark] spell, summon a bag of bugs.",
+        "name": "Filthlord Staff"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever a minion you control deals damage to an enemy, redeal half that much damage as [fire] damage.",
+        "name": "Flaming Claw Staff"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever a minion you control deals damage to an enemy, redeal half that much damage as [ice] damage.",
+        "name": "Icy Claw Staff"
+    },
+    {
+        "slot": "staff",
+        "description": "For every 50 damage dealt to enemies by [enchantments:enchantment], summon 3 Troublers for 7 turns.",
+        "name": "Scepter of Mischief"
+    },
+    {
+        "slot": "staff",
+        "description": "For every 50 damage dealt to enemies with Holy spells, automatically cast Immolate on a random enemy",
+        "name": "The Purifier",
+        "tag": "Holy"
+    },
+    {
+        "slot": "staff",
+        "description": "For every 60 damage dealt to enemies with Fire spells, automatically cast Mercurize on a random enemy",
+        "name": "Silvermelt",
+        "tag": "Fire"
+    },
+    {
+        "slot": "staff",
+        "description": "For every 75 damage dealt to enemies with Sorcery spells, automatically cast Death Chill on a random enemy",
+        "name": "Sorcwinter",
+        "tag": "Sorcery"
+    },
+    {
+        "slot": "staff",
+        "description": "For every 40 damage dealt to enemies with Lightning spells, automatically cast Annihilate on a random enemy",
+        "name": "The Dynamo",
+        "tag": "Lightning"
+    },
+    {
+        "slot": "staff",
+        "description": "For every 50 damage dealt to enemies with Enchantment spells, automatically cast Blazerip on a random enemy",
+        "name": "The Blazeloom",
+        "tag": "Enchantment"
+    },
+    {
+        "slot": "staff",
+        "description": "For every 40 damage dealt to enemies with Arcane spells, automatically cast Heavenly Blast on a random enemy",
+        "name": "Starblesser",
+        "tag": "Arcane"
+    },
+    {
+        "slot": "staff",
+        "description": "For every 50 damage dealt to enemies with Enchantment spells, automatically cast Lightning Bolt on a random enemy",
+        "name": "The Sparkloom",
+        "tag": "Enchantment"
+    },
+    {
+        "slot": "staff",
+        "description": "For every 30 damage dealt to enemies with Ice spells, automatically cast Poison Sting on a random enemy",
+        "name": "Wintersting",
+        "tag": "Ice"
+    },
+    {
+        "slot": "staff",
+        "description": "For every 30 damage dealt to enemies with Blood spells, automatically cast Scourge on a random enemy",
+        "name": "Red Majesty",
+        "tag": "Blood"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy dies, summon a Fire Bomber where it was",
+        "name": "Blastmaker"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy dies, summon a Fire Fly Swarm where it was",
+        "name": "Embermaker"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy dies, summon a Mantis where it was",
+        "name": "Mantismaker"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy dies, summon a Spriggan where it was",
+        "name": "Sprigganmaker"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy dies, summon a random imp where it was for 5 turns",
+        "name": "Impmaker"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy takes [dark] damage, deal that much [lightning] damage to up to 2 enemy units in a 6 tile burst.",
+        "name": "Crackledarkener"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever an enemy takes [ice] and [dark] damage in the same turn, summon a spirit of sorrow near that enemy for 10 turns.",
+        "name": "Scepter of Sorrows"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever a glassified enemy takes physical damage, it is unglassified and a glass faery is summoned.",
+        "name": "Glassy Fae Staff"
+    },
+    {
+        "slot": "staff",
+        "description": "Whenever a [living] ally deals damage to an enemy, if that enemy is in your line of sight, deal 8 [physical] damage to that enemy.",
+        "name": "Quill Staff"
+    },
+    {
+        "slot": "robe",
+        "description": "Whenever an enemy takes [ice] or [lightning] damage, gain 1 SH up to a max of 1",
+        "name": "Robe of Storms"
+    },
+    {
+        "slot": "robe",
+        "description": "Gain 1 SH each turn, up to a maximum of 1",
+        "name": "Fae Plate"
+    },
+    {
+        "slot": "robe",
+        "description": "Whenever a [Living] unit dies, gain 5 HP",
+        "name": "Vampiric Vestments"
+    },
+    {
+        "slot": "robe",
+        "description": "Whenever a [living] unit dies, gain 1 SH, up to a max of 2",
+        "name": "Soulmail"
+    },
+    {
+        "slot": "robe",
+        "description": "On taking damage, the source is petrified for 1 turn",
+        "name": "Basilisk Scale Armor"
+    },
+    {
+        "slot": "robe",
+        "description": "Regenerate 1 HP each turn",
+        "name": "Earthtroll Armor"
+    },
+    {
+        "slot": "robe",
+        "description": "Regenerate 1 HP each turn",
+        "name": "Stormtroll Armor"
+    },
+    {
+        "slot": "robe",
+        "description": "Whenever you cast a [Dark] or [Holy] spell, deal 8 [Dark] to a random enemy in line of sight, and 8 [Holy] damage to another.",
+        "name": "Robe of Twilight"
+    },
+    {
+        "slot": "robe",
+        "description": "Whenever you cast a [Lightning] or [Dark] spell, deal 8 [Lightning] to a random enemy in line of sight, and 8 [Dark] damage to another.",
+        "name": "Robe of Agony"
+    },
+    {
+        "slot": "robe",
+        "description": "Whenever you cast a [Fire] or [Ice] spell, deal 8 [Fire] to a random enemy in line of sight, and 8 [Ice] damage to another.",
+        "name": "Robe of Frostfire"
+    },
+    {
+        "slot": "robe",
+        "description": "Whenever you cast a [Arcane] or [Ice] spell, deal 8 [Arcane] to a random enemy in line of sight, and 8 [Ice] damage to another.",
+        "name": "Robe of Crystals"
+    },
+    {
+        "slot": "head",
+        "description": "Upon taking damage, gain 1 SH",
+        "name": "Spirit Visor"
+    },
+    {
+        "slot": "head",
+        "description": "Whenever a [living] ally dies, a random wounded ally up to 3 tiles recieves healing equal to the dead ally's max hp.",
+        "name": "Cannibal Mask"
+    },
+    {
+        "slot": "head",
+        "description": "Each turn, all allied units heal for 1 hp per 100 damage dealt to enemies by allied units.",
+        "name": "Helm of the Host"
+    },
+    {
+        "slot": "head",
+        "description": "Whenever you cast an [ice] spell, deal 2 [ice] damage to all enemy units in line of sight of the target",
+        "name": "Icy Chill Mask"
+    },
+    {
+        "slot": "head",
+        "description": "Each turn, petrify a random unpetrified enemy in line of sight for 3 turns",
+        "name": "Stone Mask"
+    },
+    {
+        "slot": "head",
+        "description": "Whenever you cast an [eye] spell, gain 3 SH, up to a maximum of 20.",
+        "name": "Eye Helm"
+    },
+    {
+        "slot": "head",
+        "description": "Whenever you cast a [Fire] spell, your [Fire] spells and skills gain [2_damage:damage] for [6_turns:duration]",
+        "name": "Fire Frenzy Mask",
+        "tag": "Fire",
+        "bonus": 2
+    },
+    {
+        "slot": "head",
+        "description": "Whenever you cast a [Ice] spell, your [Ice] spells and skills gain [2_damage:damage] for [6_turns:duration]",
+        "name": "Ice Frenzy Mask",
+        "tag": "Ice",
+        "bonus": 2
+    },
+    {
+        "slot": "head",
+        "description": "Whenever you cast a [Arcane] spell, your [Arcane] spells and skills gain [2_damage:damage] for [6_turns:duration]",
+        "name": "Arcane Frenzy Mask",
+        "tag": "Arcane",
+        "bonus": 2
+    },
+    {
+        "slot": "head",
+        "description": "After 25 turns, summon 11 Fire Fly Swarms and 4 Fire Spirits.",
+        "name": "Summer Crown"
+    },
+    {
+        "slot": "head",
+        "description": "After 25 turns, summon 2 Yetis and 3 Storm Spirits.",
+        "name": "Winter Crown"
+    },
+    {
+        "slot": "head",
+        "description": "After 25 turns, summon 7 Gnomes and 2 Mycobeasts.",
+        "name": "Spring Crown"
+    },
+    {
+        "slot": "head",
+        "description": "After 25 turns, summon 7 Ravens and 4 Witchs.",
+        "name": "Autumn Crown"
+    },
+    {
+        "slot": "boots",
+        "description": "Gain 2 HP each turn unless you moved",
+        "name": "Earthmeld Boots"
+    },
+    {
+        "slot": "boots",
+        "description": "Every 7 steps, regain a charge of each level 1 spell you know",
+        "name": "Cantrip Clogs"
+    },
+    {
+        "slot": "boots",
+        "description": "Upon entering a level, all enemies are stunned for 1 turns",
+        "name": "Timestriders"
+    },
+    {
+        "slot": "boots",
+        "description": "Grants Burrowing",
+        "name": "Drill Shoes"
+    },
+    {
+        "slot": "boots",
+        "description": "Grants Flying",
+        "name": "Winged Shoes"
+    },
+    {
+        "slot": "boots",
+        "description": "Every 8 steps, summon a Gnome",
+        "name": "Gnome Shoes"
+    },
+    {
+        "slot": "boots",
+        "description": "Every 6 steps, summon a Green Slime",
+        "name": "Slime Shoes"
+    },
+    {
+        "slot": "boots",
+        "description": "Every 4 steps, summon a Kobold",
+        "name": "Kobold Clogs"
+    },
+    {
+        "slot": "boots",
+        "description": "Every 11 steps, summon a Ogre",
+        "name": "Ogre Boots"
+    },
+    {
+        "slot": "boots",
+        "description": "Every 4 steps, summon a Ghost",
+        "name": "Ghost Slippers"
+    },
+    {
+        "slot": "trinket",
+        "description": "Each turn, each enemy adjacent to an allied [demon] or [undead] unit takes 2 [fire] damage.",
+        "name": "Red Obsidian Shard"
+    },
+    {
+        "slot": "trinket",
+        "description": "Each turn, each enemy adjacent to an allied [living] unit is poisoned for 3 turns.",
+        "name": "Jade Shard"
+    },
+    {
+        "slot": "trinket",
+        "description": "Undead allies regenerate 3 HP per turn",
+        "name": "Amulet of Undeath"
+    },
+    {
+        "slot": "trinket",
+        "description": "Whenever you enter a new level, gain immunity to stun effects for 10 turns.",
+        "name": "Vial of Ambrosia"
+    },
+    {
+        "slot": "trinket",
+        "description": "For every 30 damage dealt to enemies by [enchantments:enchantment], the closest enemy takes 10 fire damage.",
+        "name": "Amulet of Emerald Flame"
+    },
+    {
+        "slot": "trinket",
+        "description": "Your summoned allies deal 6 [Physical] damage to melee attackers",
+        "name": "Bramblethorn"
+    },
+    {
+        "slot": "trinket",
+        "description": "Your summoned allies deal 6 [Poison] damage to melee attackers",
+        "name": "Toadthorn"
+    },
+    {
+        "slot": "trinket",
+        "description": "Your summoned allies deal 6 [Fire] damage to melee attackers",
+        "name": "Devilthorn"
+    },
+    {
+        "slot": "trinket",
+        "description": "Whenever an enemy dies to [Poison] or [Arcane] damage, deal 9 damage of that type to a random enemy in line of sight of the target up to 5 tiles away.",
+        "name": "Silken Links",
+        "tags": [
+            "Poison",
+            "Arcane"
+        ]
+    },
+    {
+        "slot": "trinket",
+        "description": "Whenever an enemy dies to [Ice] or [Dark] damage, deal 9 damage of that type to a random enemy in line of sight of the target up to 5 tiles away.",
+        "name": "Winter Links",
+        "tags": [
+            "Ice",
+            "Dark"
+        ]
+    },
+    {
+        "slot": "trinket",
+        "description": "Whenever an enemy dies to [Holy] or [Lightning] damage, deal 9 damage of that type to a random enemy in line of sight of the target up to 5 tiles away.",
+        "name": "Wrath Links",
+        "tags": [
+            "Holy",
+            "Lightning"
+        ]
+    },
+    {
+        "slot": "trinket",
+        "description": "Every 3 turns, the nearest 3 enemy units are afflicted with Poison for 3 turns.\nDoes not target units already afflicted with Poison.",
+        "name": "Poison Pipe"
+    },
+    {
+        "slot": "trinket",
+        "description": "Every 10 turns, the nearest 7 enemy units are afflicted with Stunned for 3 turns.\nDoes not target units already afflicted with Stunned.",
+        "name": "Time Pipe"
+    },
+    {
+        "slot": "trinket",
+        "description": "Every 3 turns, the nearest 2 enemy units are afflicted with Blind for 4 turns.\nDoes not target units already afflicted with Blind.",
+        "name": "Ink Pipe"
+    },
+    {
+        "slot": "trinket",
+        "description": "Every 6 turns, the nearest 2 enemy units are afflicted with Frozen for 4 turns.\nDoes not target units already afflicted with Frozen.",
+        "name": "Ice Pipe"
+    }
+]

@@ -1,0 +1,1661 @@
+[
+    {
+        "description": "Whenever you cast the last charge of an [arcane] spell, your next non arcane spell is free for 1 turn.",
+        "spells": [],
+        "name": "Arcane Accounting",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Whenever a unit is killed by arcane damage, that unit explodes for [12_arcane:arcane] damage in a [3_tile:radius] square, melting walls on effected tiles.",
+        "spells": [],
+        "name": "Arcane Combustion",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane"
+        ],
+        "level": 4,
+        "damage": 12,
+        "radius": 1
+    },
+    {
+        "description": "Whenever you cast an [arcane] spell, if you have no shields, gain [1_SH:shields].",
+        "spells": [],
+        "name": "Arcane Shield",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Every 5 turns, if you have less than [2:num_summons] Bone Knights, summon a Bone Knight.\nBone knights are shielded melee units with a [dark] melee attack that drains max life.\n",
+        "spells": [],
+        "name": "Bone Guard",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dark",
+            "Conjuration"
+        ],
+        "level": 4,
+        "minion_health": 40,
+        "minion_damage": 9,
+        "num_summons": 2
+    },
+    {
+        "description": "Every 5 turns, summon a chaos chimera familiar if you do not currently have one.\nThe familiar has ranged [fire] and [lightning] attacks, and splits into a lightning snake and a fire lion on death.\nThe familiar can cast your Fireball, Lightning Bolt, Thunder Strike, Pyrostatic Pulse, Immolate, and Chaos Barrage spells on a 3 turn cooldown.\n",
+        "spells": [],
+        "name": "Chaos Familiar",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Chaos",
+            "Fire",
+            "Lightning",
+            "Conjuration"
+        ],
+        "level": 4,
+        "minion_health": 26,
+        "minion_damage": 5,
+        "minoin_range": 5
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Conjured Aggression",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [
+            {
+                "Conjuration": {
+                    "minion_damage": 50
+                }
+            }
+        ],
+        "tags": [
+            "Conjuration"
+        ],
+        "level": 4
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Conjured Vitality",
+        "tag_bonuses": [
+            {
+                "Conjuration": {
+                    "minion_health": 9
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Conjuration"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Your [sorcery] spells gain [2_damage:damage] for each [frozen] or [glassified] unit.",
+        "spells": [],
+        "name": "Crystal Power",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Ice",
+            "Arcane",
+            "Sorcery"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Every 5 turns, summon a deathchill chimera familiar if you do not currently have one.\nThe familiar has ranged [ice] and [dark] attacks, and splits into a death snake and an ice lion on death.\nThe familiar can cast your Deathbolt, Icicle, Freeze, Iceball, Life Drain, Touch of Death, and Plague of Undeath spells on a 3 turn cooldown.\n",
+        "spells": [],
+        "name": "Deathchill Familiar",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dark",
+            "Ice",
+            "Conjuration"
+        ],
+        "level": 4,
+        "minion_health": 26,
+        "minion_damage": 5,
+        "minoin_range": 5
+    },
+    {
+        "description": "Whenever you enter a new level, summon a Fae Stone nearby.\nThe Fae Stone is stationary and hard to kill, and has a [physical] melee attack.\nWhenever you cast a [nature] spell, the Fae Stone heals for [10_HP:heal].\nWhenever you cast an [arcane] spell, the Fae Stone teleports near the target and gains [1_SH:shields].",
+        "spells": [],
+        "name": "Faestone",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane",
+            "Nature",
+            "Conjuration"
+        ],
+        "level": 4,
+        "minion_health": 350,
+        "minion_damage": 20
+    },
+    {
+        "description": "Each turn all frozen enemies take [6_dark:dark] damage.",
+        "spells": [],
+        "name": "Frostbite",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Ice",
+            "Dark"
+        ],
+        "level": 4,
+        "damage": 6
+    },
+    {
+        "description": "Whenever an enemy is [frozen], reduces that enemy's [physical] and [ice] resist by 100 until it is unfrozen.",
+        "spells": [],
+        "name": "Frozen Fragility",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Ice"
+        ],
+        "level": 4
+    },
+    {
+        "description": "When you cast three [arcane] spells in a row, regain a charge of a random [translocation] spell and summon [2_faeries:num_summons].\nThe faeries fly, blink, are shielded, can heal their allies, and have an [arcane] ranged attack.\nThe faeries vanish after [10_turns:minion_duration].\n",
+        "spells": [],
+        "name": "Glittering Dance",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane",
+            "Translocation"
+        ],
+        "level": 4,
+        "minion_health": 9,
+        "minion_damage": 4,
+        "num_summons": 2,
+        "minion_range": 4,
+        "minion_duration": 10
+    },
+    {
+        "description": "Your living minions gain [75_ice:ice] resist.\nYour living minions freeze for [3_turns:duration] upon taking ice damage.\nYour living minions heal for [15_HP:heal] each turn while [frozen].\n",
+        "spells": [],
+        "name": "Hibernation",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Ice",
+            "Nature"
+        ],
+        "level": 4,
+        "duration": 3
+    },
+    {
+        "description": "Whenever a [frozen] enemy takes [holy] damage, you and all allies in line of sight gain [1_SH:shields], up to a max of [5:shields].\nWhenever a [frozen] enemy is slain by [holy] damage, deal [17_holy:holy] damage to 3 random enemies in line of sight of the slain unit.",
+        "spells": [],
+        "name": "Holy Water",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Holy",
+            "Ice"
+        ],
+        "level": 4,
+        "damage": 17,
+        "num_targets": 3
+    },
+    {
+        "description": "Whenever you cast a [fire] spell, if you have less than [4:num_summons] hellhounds, summon a hellhound.\nHell hounds have a leap attack, fiery bodies which deal damage to melee attackers, and [fire] melee attacks.\n",
+        "spells": [],
+        "name": "Houndlord",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Fire",
+            "Conjuration"
+        ],
+        "level": 4,
+        "minion_health": 19,
+        "minion_damage": 6,
+        "num_summons": 4,
+        "minion_range": 4
+    },
+    {
+        "description": "Your summoned [undead] units gain Hunger.\nHunger deals [7_dark:dark] damage to a target up to [3_tiles:range] away, healing the caster for all damage dealt, and has a [3_turn:cooldown] cooldown.\n",
+        "spells": [],
+        "name": "Hungry Dead",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dark"
+        ],
+        "level": 4,
+        "minion_damage": 7,
+        "minion_range": 3
+    },
+    {
+        "description": "Whenever you cast a [nature] or [lightning] spell, gain lifespark with duration equal to the spell's level.\nEvery turn you have active lifespark, summon a lightning bug swarm, which dissapears after 25 turns.\n",
+        "spells": [],
+        "name": "Lifespark Lantern",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Lightning",
+            "Nature",
+            "Conjuration"
+        ],
+        "level": 4,
+        "minion_duration": 20
+    },
+    {
+        "description": "Whenever you cast a [lightning] spell, all non stationary enemy units within [3_tiles:radius] of the target are teleported to random spaces up to [5_tiles:range] away and take [9_lightning:lightning] damage.  Enemies will always be teleported atleast 4 tiles away from the wizard.",
+        "spells": [],
+        "name": "Lightning Warp",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Lightning",
+            "Translocation"
+        ],
+        "level": 4,
+        "damage": 9,
+        "radius": 3
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Master of Memories",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Poisoned enemies take [4:poison] additional [poison] damage each turn.",
+        "spells": [],
+        "name": "Megavenom",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature",
+            "Dark"
+        ],
+        "level": 4,
+        "damage": 4
+    },
+    {
+        "description": "Whenever an enemy takes [fire] damage, it loses [10_physical:physical] resist.",
+        "spells": [],
+        "name": "Melting Armor",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Fire",
+            "Metallic"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Each turn, heal each of your minions for [2_HP:heal]",
+        "spells": [],
+        "name": "Minion Regeneration",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature",
+            "Holy"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Whenever you cast a [nature] spell, you and all [living] allies heal [5_HP:heal].",
+        "spells": [],
+        "name": "Natural Healing",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Your summoned units gain [25_physical:physical] resist, [25_lightning:lightning] resist, [25_ice:ice] resist and [25_fire:fire] resist.",
+        "spells": [],
+        "name": "Natural Vigour",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Whenever an enemy takes [poison] damage, it has a 25% chance to be [stunned] for [1_turn:duration].",
+        "spells": [],
+        "name": "Paralyzing Venom",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Whenever an enemy dies to [fire], [physical], or [lightning] damage, deal [13_damage:damage] of that type to a random enemy in line of sight of the target up to [5_tiles:radius] away.",
+        "spells": [],
+        "name": "Prince of Ruin",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Chaos",
+            "Fire",
+            "Lightning"
+        ],
+        "level": 4,
+        "damage": 13,
+        "radius": 5
+    },
+    {
+        "description": "Whenever you cast an [ice] spell, [freeze] the nearest unfrozen enemy to that spell's target for [3_turns:duration].",
+        "spells": [],
+        "name": "Radiant Chill",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Ice"
+        ],
+        "level": 4,
+        "duration": 3
+    },
+    {
+        "description": "Arcane minions you summon gain [3_SH:shields].  Other minions you summon gain [1_SH:shields].",
+        "spells": [],
+        "name": "Shielded Minions",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane"
+        ],
+        "level": 4
+    },
+    {
+        "description": "You are a [spider].\nPassively spawn a web each turn on a random adjacent tile.  Webs will not spawn on top of units or walls.\nWhenever you cast a translocation spell targeting a web, refund 1 charge of that spell and consume the web.",
+        "spells": [],
+        "name": "Silkshifter",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature",
+            "Translocation"
+        ],
+        "level": 4
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Spell Sniper",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Sorcery"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Whenever an enemy dies to [poison] damage, summon a friendly spider nearby.\nGiant spiders have [14_HP:minion_health] and spin webs.\nGiant spiders have a melee attack which deals [2_physical:physical] and inflicts [5_turns:duration] of [poison].\nWebs [stun] non spider units which step on them for [1_turn:duration].\n[Poisoned] units take 1 [poison] damage each turn and cannot heal.[Stunned] units cannot act.",
+        "spells": [],
+        "name": "Spider Spawning",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature"
+        ],
+        "level": 4,
+        "minion_health": 14,
+        "minion_damage": 2,
+        "duration": 10
+    },
+    {
+        "description": "Whenever you cast a translocation spell, summon a stormtroll trickster at the location you cast the spell from.",
+        "spells": [],
+        "name": "Stormbrood Tricksters",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Lightning",
+            "Translocation"
+        ],
+        "level": 4,
+        "minion_health": 30,
+        "minion_damage": 10
+    },
+    {
+        "description": "Whenever a living ally takes damage, gain that much toadblood.\nAt 250 toadblood, summon a towering toadbeast near the most recently damaged ally.\nCurrent toadblood: 0\n",
+        "spells": [],
+        "name": "Toadblood Transmutation",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature",
+            "Blood",
+            "Conjuration"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Whenever you summon an [undead] or [demon], if you control a holy unit, the newly summoned unit gains [7_damage:damage].\nWhenever you summon a [holy] creature, if you control an [undead] or [demon], the newly summoned unit gains [7_damage:damage].\n",
+        "spells": [],
+        "name": "Unholy Alliance",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dark",
+            "Holy"
+        ],
+        "level": 4
+    },
+    {
+        "description": "Your summoned [living] and [nature] units gain Venom Spit.\nVenom spit is a ranged attack which deals [4_poison:poison] damage and inflicts [poison] for [10_turns:duration].\nVenom spit has a [6_tile:range] range, and a [4_turn:cooldown] cooldown.",
+        "spells": [],
+        "name": "Venom Spit",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature"
+        ],
+        "level": 4,
+        "minion_damage": 4,
+        "minion_range": 6
+    },
+    {
+        "description": "Whenever you cast a [fire] or [arcane] spell, gain starcharged with duration equal to the spell's level.\nStarcharged deals [6_fire:fire] damage to one random enemy in line of sight each turn, and [6_arcane:arcane] damage to another.",
+        "spells": [],
+        "name": "Voidflame Lantern",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Fire",
+            "Arcane"
+        ],
+        "level": 4,
+        "damage": 6
+    },
+    {
+        "description": "Each turn, a random unacidified enemy is acidified.\nAcidified units lose 100 [poison] resist.",
+        "spells": [],
+        "name": "Acid Fumes",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature",
+            "Dark"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever you cast a [metallic] spell, a random summoned ally equips a copy of your armor",
+        "spells": [],
+        "name": "Armorer",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Metallic",
+            "Conjuration"
+        ],
+        "level": 5
+    },
+    {
+        "description": "For every 6 HP spent casting spells, summon a bloodghast for 13 turns.",
+        "spells": [],
+        "name": "Blood Anima",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Conjuration",
+            "Blood"
+        ],
+        "level": 5,
+        "minion_duration": 13
+    },
+    {
+        "description": "Whenever an enemy [demon] or [living] unit dies, gain 2 HP",
+        "spells": [],
+        "name": "Blood Reaping",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Blood"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever you cast a [chaos] spell, you have a 25% chance of regaining a charge of another random [chaos] spell",
+        "spells": [],
+        "name": "Chaos Casting",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Chaos"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Each turn, deal 2x the sum total of all [poison] damage dealt to all units to the nearest enemy as [dark] damage.",
+        "spells": [],
+        "name": "Collected Agony",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dark",
+            "Nature"
+        ],
+        "level": 5,
+        "charges": 0
+    },
+    {
+        "description": "Redeal half of all damage dealt to enemy units by [demon] allies as [poison] damage",
+        "spells": [],
+        "name": "Demonic Cruelty",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dark",
+            "Chaos"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever you cast a [nature] or [chaos] spell, send out tremors along the ground from the target to nearby enemies.\nEach tremor deals [9_physical:physical] damage to the target and all units in its path.\nThe base number of tremors is equal to the level of the spell, but can be modified by num_targets bonuses.\nThe tremors can target enemies up to [8:radius] tiles away.\n",
+        "spells": [],
+        "name": "Earthwrath",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature",
+            "Chaos"
+        ],
+        "level": 5,
+        "damage": 9,
+        "radius": 8
+    },
+    {
+        "description": "Redeal 50% of all [physical], [poison], [lightning], and [ice] damage dealt to enemies by [enchantments:enchantment] as [arcane] damage.\nRedeal 50% of all other damage dealt to enemies by [enchantments:enchantment] as [poison] damage.",
+        "spells": [],
+        "name": "Fae Malevolence",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane",
+            "Nature",
+            "Enchantment"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever an enemy takes [fire], it is then redealt half that damage [holy] damage.",
+        "spells": [],
+        "name": "Fiery Judgement",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Fire",
+            "Holy"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever an enemy takes [dark] damage and [fire] damage in the same turn, summon a burning ghost near that enemy.\nBurning ghosts fly, have [100_fire:fire] resist and [100_dark:dark] resist, and passively blink.\nBurning ghosts have a ranged attack which deals [7_fire:fire] damage with a [5_tile:minion_range] range.\nThe ghosts vanish after [10_turns:minion_duration].",
+        "spells": [],
+        "name": "Ghostfire",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Fire",
+            "Dark"
+        ],
+        "level": 5,
+        "minion_health": 4,
+        "minion_damage": 7,
+        "minion_range": 5,
+        "minion_duration": 10
+    },
+    {
+        "description": "Whenever an allied unit heals, deal that much [poison] damage to up to [2:num_targets] enemy units in a [5_tile:radius] burst.",
+        "spells": [],
+        "name": "Hemocorruption",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Blood",
+            "Nature",
+            "Dark"
+        ],
+        "level": 5,
+        "radius": 5,
+        "num_targets": 2
+    },
+    {
+        "description": "Whenever an enemy takes [lightning], it is then redealt half that damage [holy] damage.",
+        "spells": [],
+        "name": "Holy Thunder",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Lightning",
+            "Holy"
+        ],
+        "level": 5
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Hordemancer",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Conjuration"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever an enemy dies to [dark] damage, up to [3:num_targets] random enemies in line of sight of that enemy are [stunned] for [5_turns:duration]",
+        "spells": [],
+        "name": "Horror",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dark"
+        ],
+        "level": 5,
+        "duration": 5
+    },
+    {
+        "description": "Whenever you cast a [dark] spell, if your next spell is a [holy] spell of a lower level, that spell's cost is refunded.\nWhenever you cast a [holy] spell, if your next spell is a [dark] spell of a lower level, that spell's cost is refunded.",
+        "spells": [],
+        "name": "Hypocrisy",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dark",
+            "Holy"
+        ],
+        "level": 5
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Master of Space",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane"
+        ],
+        "level": 5
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Master of Time",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Enchantment"
+        ],
+        "level": 5
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Multimancy",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [
+            "num_targets"
+        ],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane"
+        ],
+        "level": 5
+    },
+    {
+        "description": "You get +1 [lightning] damage for each undead ally you control.",
+        "spells": [],
+        "name": "Necrostatics",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Lightning",
+            "Dark"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever you or an allied unit deals physical damage to an enemy, if the source of that damage is shielded, redeal 50% of that damage as arcane and 50% of that damage as holy.",
+        "spells": [],
+        "name": "Purestrike",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Holy",
+            "Arcane"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever a summoned minion witnesses an enemy take [fire] damage, that minion heals for half that damage.",
+        "spells": [],
+        "name": "Pyrophilia",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Fire",
+            "Nature"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever an enemy dies to [holy] damage, allies witnessing it gain [1_SH:shields] if they are not already shielded.",
+        "spells": [],
+        "name": "Righteous March",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Holy"
+        ],
+        "level": 5
+    },
+    {
+        "description": "At the end of your turn, if you control 10 or more [living] or [arcane] allies and no Egregore, summon a Scalefeather Egregore.\nThe Egregore can cast your blizzard, nightmare aura, devour mind, void beam, toxin burst, and lumbriogenesis spells if you have them.\nThe Egregore is unsummoned at the end of your turn if you control fewer than 10 living allies.",
+        "spells": [],
+        "name": "Scalefeather Egregore",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane",
+            "Nature",
+            "Conjuration"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever you cast a [fire] spell, deal [1_fire:fire] damage to all enemies in line of sight of the target.\nThis damage is fixed and cannot be modified.",
+        "spells": [],
+        "name": "Searing Heat",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Fire"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever an enemy takes [fire], redeal half that damage as [arcane] damage.",
+        "spells": [],
+        "name": "Starfire",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Fire",
+            "Arcane"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever you cast an [arcane] or [nature] spell, summon [3:num_summons] fae thorns near the target.\nFae Thorns have [10_HP:minion_health], and cannot move.\nFae Thorns have a melee attack which deals [4_physical:physical] damage.\nThe thorns vanish after [9_turns:minion_duration].",
+        "spells": [],
+        "name": "Thorn Garden",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane",
+            "Nature"
+        ],
+        "level": 5,
+        "minion_health": 10,
+        "minion_damage": 4,
+        "num_summons": 3,
+        "minion_duration": 9
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Wordspeaker",
+        "tag_bonuses": [
+            {
+                "Word": {
+                    "max_charges": 2
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Word"
+        ],
+        "level": 5
+    },
+    {
+        "description": "Whenever an enemy takes [holy] damage, it has a 50% chance to be [stunned] for [1_turn:duration].",
+        "spells": [],
+        "name": "Chastisement",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Holy"
+        ],
+        "level": 6
+    },
+    {
+        "description": "Whenever an enemy takes [arcane] damage, deal that much [lightning] damage to up to [2:num_targets] enemy units in a [6_tile:radius] burst.",
+        "spells": [],
+        "name": "Cracklevoid",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Lightning",
+            "Arcane"
+        ],
+        "level": 6,
+        "radius": 6,
+        "num_targets": 2
+    },
+    {
+        "description": "Whenever you cast the same [sorcery] spell twice in a row, gain a charge of that spell.\n",
+        "spells": [],
+        "name": "Echomancer",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Sorcery"
+        ],
+        "level": 6
+    },
+    {
+        "description": "Whenever you cast an [arcane] spell targeting a [frozen] unit, make a copy of that spell targeting each other frozen unit in line of sight.\nRemove [frozen] from all affected units.",
+        "spells": [],
+        "name": "Ice Tap",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Ice",
+            "Arcane"
+        ],
+        "level": 6,
+        "damage": 8,
+        "radius": 3,
+        "num_targets": 4
+    },
+    {
+        "description": "Whenever one of your minions dies, up to [3:num_targets] random enemies in a [5_tile:radius] radius take [ice] damage equal to half the dead minion's max HP.",
+        "spells": [],
+        "name": "Icy Vengeance",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Ice",
+            "Dark"
+        ],
+        "level": 6,
+        "radius": 5,
+        "num_targets": 3
+    },
+    {
+        "description": "Whenever you cast a [fire] spell, all of your [metallic] allies gain [2_damage:damage] [fire] aura with radius equal to the level of the spell you cast for [10_turns:duration].\nThis damage is fixed, and cannot be increased using shrines, skills, or buffs.\n",
+        "spells": [],
+        "name": "Inferno Engines",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Fire",
+            "Metallic"
+        ],
+        "level": 6,
+        "duration": 10
+    },
+    {
+        "description": "Whenever you cast a [lightning] spell, your [lightning] spells and skills gain [4_damage:damage] for [6_turns:duration]",
+        "spells": [],
+        "name": "Lightning Frenzy",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Lightning"
+        ],
+        "level": 6,
+        "duration": 6
+    },
+    {
+        "description": "Whenever an enemy takes [arcane] damage, all [holy] minions in line of sight of that enemy redeal 50% of that damage as [holy] damage.",
+        "spells": [],
+        "name": "Moonspeaker",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane",
+            "Holy"
+        ],
+        "level": 6
+    },
+    {
+        "description": "Whenever an allied [dragon] uses a breath weapon, all your summoned units gain 100 resist to that breath weapon's element for [5_turns:duration]",
+        "spells": [],
+        "name": "Scalespinner",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dragon"
+        ],
+        "level": 6,
+        "duration": 5
+    },
+    {
+        "description": "Whenever a unit is unfrozen or a [frozen] unit is killed, up to [3_enemies:num_targets] in a [6_tile:radius] burst take [6_ice:ice] and [6_physical:physical] damage.",
+        "spells": [],
+        "name": "Shatter Shards",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Ice"
+        ],
+        "level": 6,
+        "damage": 6,
+        "radius": 6,
+        "num_targets": 3
+    },
+    {
+        "description": "Whenever a unit is unfrozen by fire damage, spawn [3:num_summons] steam elementals nearby.\nSteam elementals have [16_HP:minion_health], [100_physical:physical] resist, [100_ice:ice] resist, and [100_fire:fire] resist.\nSteam elementals have a ranged attack which deals [9_fire:fire] damage, with a range of [6_tiles:minion_range].\nThe elementals vanish after [5_turns:minion_duration].",
+        "spells": [],
+        "name": "Steam Anima",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Ice",
+            "Fire"
+        ],
+        "level": 6,
+        "minion_health": 16,
+        "minion_damage": 9,
+        "num_summons": 3,
+        "minion_range": 6,
+        "minion_duration": 5
+    },
+    {
+        "description": "Whenever [ice] or [lightning] damage is dealt to an enemy unit, create a blizzard or thundercloud nearby.\nThe blizzards deal [ice] damagage and may freeze enemies, the thunderclouds strike inconsistently but deal double [lightning] damage.\nThe clouds last [5_turns:duration].",
+        "spells": [],
+        "name": "Storm Caller",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Lightning",
+            "Ice",
+            "Nature"
+        ],
+        "level": 6,
+        "damage": 5,
+        "duration": 5
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Arch Conjurer",
+        "tag_bonuses": [
+            {
+                "Conjuration": {
+                    "max_charges": 2,
+                    "minion_damage": 3,
+                    "minion_range": 1
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [
+            {
+                "Conjuration": {
+                    "minion_health": 50,
+                    "minion_duration": 50
+                }
+            }
+        ],
+        "tags": [
+            "Conjuration"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Arch Enchanter",
+        "tag_bonuses": [
+            {
+                "Enchantment": {
+                    "max_charges": 2,
+                    "duration": 3
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [
+            {
+                "Enchantment": {
+                    "damage": 40
+                }
+            }
+        ],
+        "tags": [
+            "Enchantment"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Arch Sorcerer",
+        "tag_bonuses": [
+            {
+                "Sorcery": {
+                    "damage": 7,
+                    "range": 2
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [
+            {
+                "Sorcery": {
+                    "max_charges": 25
+                }
+            }
+        ],
+        "tags": [
+            "Sorcery"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Blood Lord",
+        "tag_bonuses": [
+            {
+                "Blood": {
+                    "max_charges": 1,
+                    "range": 2,
+                    "minion_damage": 3
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [
+            {
+                "Blood": {
+                    "minion_health": 50,
+                    "damage": 50
+                }
+            }
+        ],
+        "tags": [
+            "Blood"
+        ],
+        "level": 7
+    },
+    {
+        "description": "Each turn, if atleast 13 fire, lightning and physical damage were dealt to enemies, summon a Chaos Quill.",
+        "spells": [],
+        "name": "Chaos Poet",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Chaos",
+            "Conjuration"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Dark Lord",
+        "tag_bonuses": [
+            {
+                "Dark": {
+                    "max_charges": 3,
+                    "minion_damage": 6
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [
+            {
+                "Dark": {
+                    "damage": 40
+                }
+            }
+        ],
+        "tags": [
+            "Dark"
+        ],
+        "level": 7
+    },
+    {
+        "description": "For every 40 damage dealt by [sorcery] spells you cast, deal [1_physical:physical] damage to all enemy units.\nThis damage cannot be boosted.",
+        "spells": [],
+        "name": "Disintegrator",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Sorcery"
+        ],
+        "level": 7,
+        "charges": 0
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Dragon Lord",
+        "tag_bonuses": [
+            {
+                "Dragon": {
+                    "max_charges": 3,
+                    "minion_health": 25,
+                    "breath_damage": 10
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dragon"
+        ],
+        "level": 7
+    },
+    {
+        "description": "Whenever you cast a self targeted enchantment spell, a random minion also casts it.",
+        "spells": [],
+        "name": "Enchanters Boon",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Enchantment"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Fire Lord",
+        "tag_bonuses": [
+            {
+                "Fire": {
+                    "max_charges": 1,
+                    "radius": 1,
+                    "damage": 3
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [
+            {
+                "Fire": {
+                    "damage": 60
+                }
+            }
+        ],
+        "tags": [
+            "Fire"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Ice Lord",
+        "tag_bonuses": [
+            {
+                "Ice": {
+                    "max_charges": 1,
+                    "damage": 6,
+                    "duration": 2
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Ice"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Light Lord",
+        "tag_bonuses": [
+            {
+                "Holy": {
+                    "max_charges": 2,
+                    "damage": 12,
+                    "minion_health": 15
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [
+            {
+                "Holy": {
+                    "minion_duration": 75
+                }
+            }
+        ],
+        "tags": [
+            "Holy"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Metal Lord",
+        "tag_bonuses": [
+            {
+                "Metallic": {
+                    "max_charges": 3,
+                    "duration": 5,
+                    "range": 4
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Metallic"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Nature Lord",
+        "tag_bonuses": [
+            {
+                "Nature": {
+                    "max_charges": 3,
+                    "duration": 2,
+                    "minion_damage": 7,
+                    "minion_health": 10
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Nature"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Orb Lord",
+        "tag_bonuses": [
+            {
+                "Orb": {
+                    "max_charges": 3,
+                    "range": 4,
+                    "minion_health": 35
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Orb"
+        ],
+        "level": 7
+    },
+    {
+        "description": "Whenever 200 damage is dealt by [blood] or [nature] spells, skills, or summons, summon a blood hound",
+        "spells": [],
+        "name": "Scent of Blood",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Blood",
+            "Nature"
+        ],
+        "level": 7
+    },
+    {
+        "description": "Whenever you deal 6 or more fire, lightning, or physical damage, summon a corresponding snake for 4 turns.  The snakes attacks deal half the dealt damage.",
+        "spells": [],
+        "name": "Serpents of Chaos",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Conjuration",
+            "Chaos",
+            "Dragon"
+        ],
+        "level": 7,
+        "minion_duration": 4
+    },
+    {
+        "description": "Whenever an enemy dies to [lightning] damage, another random enemy in line of sight of that enemy goes [berserk] for [5_turns:duration].\n[Berserk] units are hostile to all other units, they will attack and be attacked by their allies.",
+        "spells": [],
+        "name": "Shock Value",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Lightning"
+        ],
+        "level": 7,
+        "duration": 5
+    },
+    {
+        "description": "Whenever an enemy unit dies, each of your [dark] spells has a 10% chance of gaining a charge.\nThis chance is tripled if the unit died to [dark] damage.",
+        "spells": [],
+        "name": "Soul Harvest",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Dark"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Thunder Lord",
+        "tag_bonuses": [
+            {
+                "Lightning": {
+                    "max_charges": 1,
+                    "cascade_range": 2,
+                    "num_targets": 1
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [
+            {
+                "Lightning": {
+                    "damage": 50
+                }
+            }
+        ],
+        "tags": [
+            "Lightning"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Translocation Master",
+        "tag_bonuses": [
+            {
+                "Translocation": {
+                    "max_charges": 5
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [
+            {
+                "Translocation": {
+                    "range": 25
+                }
+            }
+        ],
+        "tags": [
+            "Translocation"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Unblinking Eye",
+        "tag_bonuses": [
+            {
+                "Eye": {
+                    "shot_cooldown": -1,
+                    "duration": 10,
+                    "minion_duration": 10,
+                    "max_charges": 1
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Eye"
+        ],
+        "level": 7
+    },
+    {
+        "description": "",
+        "spells": [],
+        "name": "Void Lord",
+        "tag_bonuses": [
+            {
+                "Arcane": {
+                    "max_charges": 2,
+                    "damage": 8,
+                    "range": 2
+                }
+            }
+        ],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane"
+        ],
+        "level": 7
+    },
+    {
+        "description": "Whenever you or one of your [arcane] or [undead] allies take damage from an enemy, deal [5_arcane:arcane] damage to the source of that damage.",
+        "spells": [],
+        "name": "Void Spikes",
+        "tag_bonuses": [],
+        "spell_bonuses_pct": [],
+        "global_bonuses_pct": [],
+        "tag_bonuses_pct": [],
+        "tags": [
+            "Arcane",
+            "Dark"
+        ],
+        "level": 7,
+        "damage": 5
+    }
+]

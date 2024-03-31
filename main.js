@@ -138,7 +138,7 @@ var attr_colors_keys = {
 	'cascade_range': "COLOR_CHARGES",
 }
 
-var url = "/data_sources/";
+var url = "data_sources/";
 
 
 

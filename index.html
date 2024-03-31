@@ -76,10 +76,10 @@
 					</template>
 					<template v-if="displayed_item_type=='item'">
 						<div>
-							{{ displayed_item.name }}
-							<template v-if="displayed_item.conditions && displayed_item.conditions.length">
+							{{ displayed_item.name }} [ {{ displayed_item.slot }} ] 
+							<template v-if="displayed_item.tags && displayed_item.tags.length">
 							[
-							<template v-for="name in displayed_item.conditions">
+							<template v-for="name in displayed_item.tags">
 								<span class="tag_name" :class="name.toLowerCase()" v-html="decorate_tag_name(name,true)"></span>
 							</template>
 							]

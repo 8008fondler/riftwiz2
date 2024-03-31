@@ -65,22 +65,6 @@
 						</div>
 
 						<div v-html="decorate_desc_html(displayed_item.description)"></div>
-
-						<!--template v-if="displayed_item.applies_to">
-							<div>---{{ displayed_item.applies_to }}---</div>
-						</template>
-						<div v-if="displayed_item.applies_what && displayed_item.applies_what.length">
-							<template v-if="displayed_item.applies_what.length > 1">
-								<ul>
-									<template v-for="effect in displayed_item.applies_what">
-										<li>{{ effect }}
-									</template>
-								</ul>
-							</template>
-							<template v-else>
-								{{ displayed_item.applies_what[0] }}
-							</template>
-						</div-->
 					</template>
 					<template v-if="displayed_item_type=='item'">
 						<div>
@@ -261,7 +245,6 @@
 	
 </div>
 
-<!--todo: move this to separate file-->
 <script src="main.js"></script>
 
 </body>

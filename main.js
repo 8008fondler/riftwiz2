@@ -22,10 +22,6 @@ var get_flattened_desc = function (something){
     return tmp;
 }
 
-//ttt = "Devour Mind 0 2 Deal 24 arcane arcane to an enemy unit Then if the target is under 50% HP deal it an additional 24 dark dark damage Can only target living units 5 11 Arcane Dark Sorcery range max charges damage gluttony spiriteater huskify huskify 1 2 Huskification Killed targets are raised as zombies spiriteater 1 1 Spirit Eater Can target demon and arcane units gluttony 1 2 Gluttony If Devour Mind kills the target the charge cost is refunded ";
-//console.log( '===' + (/24 arcane/gi).test(ttt) + '===')
-
-
 //var keys_excluded_from_flattening = ['label'];
 
 var recursive_flattening = function(something, exclude_keys = false){

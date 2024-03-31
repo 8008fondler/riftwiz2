@@ -35,28 +35,28 @@ height:74vh;
 overflow:auto;
 overflow-x:hidden;
 }
-.schools_filter .school_name, .entry {
+.tags_filter .tag_name, .entry {
 cursor:pointer;
 display:inline-block;
 width:100%;
 }
-.schools_filter .school_name:hover,.entry:hover {
+.tags_filter .tag_name:hover,.entry:hover {
 background:rgba(255,255,255,0.3);
 }
-.school_name {
+.tag_name {
 color:#969696;
 text-transform:capitalize;
 display:inline-block;
 }
 
-.school_name.no-conjuration, .school_name.conjuration-only {
+.tag_name.no-conjuration, .tag_name.conjuration-only {
 color:red;
 text-decoration-thickness: 3px;
 }
-.school_name.conjuration-only {
+.tag_name.conjuration-only {
 text-decoration-line:underline;
 }
-.school_name.no-conjuration {
+.tag_name.no-conjuration {
 text-decoration-line:line-through;
 }
 input.invalid {

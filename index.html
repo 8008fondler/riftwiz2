@@ -50,6 +50,14 @@
 						</div>
 
 						<div v-html="decorate_desc_html(displayed_item.description)"></div>
+
+						<div>
+							<br>
+							[Spell stats]:
+							<template v-for="name in displayed_item.stats">
+								<span v-html="decorate_desc_html( '[' + name + ']')"></span> &nbsp;
+							</template>
+						</div>
 					</template>
 					<template v-if="displayed_item_type=='skill'">
 						<div>

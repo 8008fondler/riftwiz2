@@ -15,7 +15,7 @@ var get_flattened_desc = function (something){
     if (cached_flattened_descriptions.has(something))
         return cached_flattened_descriptions.get(something)
     
-    let tmp = recursive_flattening(something,true);
+    let tmp = recursive_flattening(something,true,true);
     tmp = tmp.replace(/\_|\:|\]|\[|[\(\)\.\,\:]/g," ").replace(/\s+/g," ");
     cached_flattened_descriptions.set(something,tmp);
     //console.log(tmp);
@@ -24,7 +24,7 @@ var get_flattened_desc = function (something){
 
 //var keys_excluded_from_flattening = ['label'];
 
-var recursive_flattening = function(something, exclude_keys = false){
+var recursive_flattening = function(something, exclude_keys = false, topmost_level = false){
     let res = ' ';
 
     if (something === null || typeof something == "boolean")
@@ -41,7 +41,8 @@ var recursive_flattening = function(something, exclude_keys = false){
         for (k in something){
             //if (keys_excluded_from_flattening.indexOf(k) === -1)
             //TODO: include some keys from tab_bonuses & tag_bonuses_pct
-            if (false && !exclude_keys)
+            //if (false && !exclude_keys)
+            if (!topmost_level) //temporary(?) exclude only keys for top-levelthingies (to include tag_bonuses keys into search)
                 res += k + " ";
 
             res += recursive_flattening(something[k]) + " ";

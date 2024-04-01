@@ -127,6 +127,18 @@
 								</div>
 							</template>
 						</template>
+						<template v-for="(bonus_val, bonus_index) in displayed_item.tag_bonuses_pct">
+							<template v-for="(tag_bonus, name) in bonus_val">
+								<div>
+									<div><span class="tag_name" :class="name.toLowerCase()" v-html="decorate_tag_name(name)"></span></div>
+									<template v-for="(val, label) in tag_bonus">
+										<div>
+										{{ label }} : {{ val }} %
+										</div>
+									</template>
+								</div>
+							</template>
+						</template>
 					</template>
 				</template>
 			</div>
